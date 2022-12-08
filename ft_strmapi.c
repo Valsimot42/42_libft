@@ -6,14 +6,15 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:17:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:21:17 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:03:58 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function applies the function "f" on each character of the string passed as argument, passing its index as first argument.
+ * @brief This function applies the function "f" on each character of
+ * the string passed as argument, passing its index as first argument.
  * Each character is passed by address to "f" to be modified if necessary.
  * 
  * @param s The string on which to iterate.

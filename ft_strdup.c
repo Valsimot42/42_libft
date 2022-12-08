@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:07:53 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:58 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:02:15 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,11 @@ static char	*ft_strcpy(char *dest, char *src)
 }
 
 /**
- * @brief This function allocates sufficient memory for a copy of the string "s1", does the copy, and returns a pointer to it.
- * The pointer may susequently be used as an argument to the function free. If insuffiecient memory is available, NULL is returned and errno is set to ENOMEM.
+ * @brief This function allocates sufficient memory for a copy of
+ * the string "s1", does the copy, and returns a pointer to it.
+ * The pointer may susequently be used as an argument to the function
+ * free. If insuffiecient memory is available, NULL is returned and
+ * errno is set to ENOMEM.
  * 
  * @param s1 String that is going to be copied.
  * @return Function returns a pointer to the string "s1".

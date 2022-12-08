@@ -6,14 +6,15 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 11:02:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:21:04 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:02:35 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief Allocates (with malloc) and returns a new string, which is the result of the concatenation of "s1" and "s2".
+ * @brief Allocates (with malloc) and returns a new string, which is
+ * the result of the concatenation of "s1" and "s2".
  * 
  * @param s1 The prefix string.
  * @param s2 The suffix string.

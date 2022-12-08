@@ -6,19 +6,21 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 14:18:51 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:24 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 13:59:36 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function locates the first occurance of "c" (converted to an unsigned char) in string "s".
+ * @brief This function locates the first occurance of "c"
+ * (converted to an unsigned char) in string "s".
  * 
  * @param s String.
  * @param c Character that we are looking for in the string.
  * @param n Size of the bytes function will check for character "c".
- * @return Function returns a pointer to the byte located, or NULL if no such byte exists within "n" bytes.
+ * @return Function returns a pointer to the byte located, or NULL if
+ * no such byte exists within "n" bytes.
  */
 void	*ft_memchr(const void *s, int c, size_t n)
 {

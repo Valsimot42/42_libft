@@ -6,14 +6,16 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:22:26 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:21:31 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:05:41 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function allocates (with malloc) and returns a copy of "str" with the characters specified in "set" removed from the beginning and the end of the string.
+ * @brief This function allocates (with malloc) and returns a
+ * copy of "str" with the characters specified in "set" removed
+ * from the beginning and the end of the string.
  * 
  * @param str The string to be trimmed.
  * @param set The reference set of characters to trim.

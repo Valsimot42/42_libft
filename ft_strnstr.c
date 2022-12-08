@@ -6,20 +6,24 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:09:50 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:21:25 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:05:09 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function locates the first occurance of the null-terminated string "ned" in the string "hay", where not more than "len" characters are searched.
- * Characters that appear after a '\0' character are not searched. 
+ * @brief This function locates the first occurance of the
+ * null-terminated string "ned" in the string "hay", where not
+ * more than "len" characters are searched. Characters that
+ * appear after a '\0' character are not searched. 
  * 
  * @param hay Null-terminated string in which we are looking for "ned".
  * @param ned Null-terminated string.
  * @param len Size of characters that will be searched.
- * @return If "ned" is an empty string, "hay" is returned; if "ned" occurs nowhere in "hay", NULL is returned; otherwise a pointer to the first character of the first occurance of "ned" is returned.
+ * @return If "ned" is an empty string, "hay" is returned; if "ned"
+ * occurs nowhere in "hay", NULL is returned; otherwise a pointer to
+ * the first character of the first occurance of "ned" is returned.
  */
 char	*ft_strnstr(const char *hay, const char *ned, size_t len)
 {

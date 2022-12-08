@@ -6,14 +6,15 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:03:36 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:19:59 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 13:52:33 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function writes "n" zeroed bytes to the string "s". If "n" is zero, "ft_bzero" does nothing.
+ * @brief This function writes "n" zeroed bytes to the string "s".
+ * If "n" is zero, "ft_bzero" does nothing.
  * 
  * @param s Pointer to the string.
  * @param n Number of bytes we want to fill with zeroes.

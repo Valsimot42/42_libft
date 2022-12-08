@@ -6,14 +6,15 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:09:18 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:30 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:00:00 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function copies "n" bytes from memory area "src" to memory area "dst". If "dst" and "src" overlap, behavior is undefined.
+ * @brief This function copies "n" bytes from memory area "src" to memory
+ * area "dst". If "dst" and "src" overlap, behavior is undefined.
  * 
  * @param dst Memory area where bytes will be copied to.
  * @param src Memory area from which bytes are copied.

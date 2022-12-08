@@ -6,14 +6,17 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:07:28 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:33 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:00:22 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function copies "len" bytes from string "src" to string "dst". The two strings may overlap; the copy is always done in a non-destructive manner.
+ * @brief This function copies "len" bytes from string "src" to
+ * string "dst".
+ * The two strings may overlap; the copy is always done in a
+ * non-destructive manner.
  * 
  * @param dst Memory area where bytes will be copied to.
  * @param src Memory area from which bytes are copied.

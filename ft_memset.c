@@ -6,14 +6,15 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:10:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:36 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 14:00:35 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /**
- * @brief This function writes "len" bytes of value "c" (conversted to an unsigned char) to the string "b"
+ * @brief This function writes "len" bytes of value "c"
+ * (conversted to an unsigned char) to the string "b"
  * 
  * @param b String.
  * @param c Element that we want to write into string.

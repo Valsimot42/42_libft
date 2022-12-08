@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 11:53:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:20:21 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 13:59:16 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,8 @@ static void	ft_itoa_recursive(long n, char *str)
 }
 
 /**
- * @brief This function converts integer into null-terminated string. It can convert negative numbers.
+ * @brief This function converts integer into null-terminated string.
+ * It can convert negative numbers.
  * 
  * @param n Integer that is being converted.
  * @return Returns a string representing the integer received as an argument.

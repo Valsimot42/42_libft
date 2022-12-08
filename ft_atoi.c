@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 10:59:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/10/26 16:19:59 by tbolkova         ###   ########.fr       */
+/*   Updated: 2022/12/08 13:52:12 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ static int	ft_isspace(int ch)
  * 
  * 
  * @param str Pointer to the string.
- * @return This function returns the converted integral number as an int value. If no valid conversion could be performed, it returns zero.
+ * @return This function returns the converted integral number as an int value.
+ * If no valid conversion could be performed, it returns zero.
  */
 int	ft_atoi(const char *str)
 {
