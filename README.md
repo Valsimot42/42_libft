@@ -15,3 +15,9 @@ will begin with the "ft_" prefix. For instance, "strlen" becomes "ft_strlen".</p
 <p align="left̨">The "is_alpha" function in C is a utility function that checks whether a given character is an alphabetic character (a letter). It returns a boolean
 value indicating whether the character is a letter or not. It checks if the character is within the range of lowercase letters (a to z) or uppercase
 letters (A to Z) using character comparison or character class functions like islower() or isupper().
+
+  -------------------
+  
+  <h3><b>¤ ISDIGIT ¤</b></h3>
+
+• DESCRIPTION •
