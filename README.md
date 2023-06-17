@@ -102,7 +102,101 @@ If the subject requires it, you must submit a Makefile which will compile your s
 |:--------------------|:--------|
 |Prototype|char *ft_strjoin(char const *s1, char const *s2);|
 |Turn in files|-|
-|Parameters|<b>s1</b>: The prefix string. <b>s2</b>: The suffix string.
+|Parameters|<b>s1</b>: The prefix string. <b>s2</b>: The suffix string.|
 |Return value|The new string. NULL if the allocation fails.|
 |External ft.|malloc|
 |Description|Allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.|
+
+
+|Function name        |ft_strtrim|
+|:--------------------|:--------|
+|Prototype|char *ft_strtrim(char const *s1, char const *set);|
+|Turn in files|-|
+|Parameters|<b>s1</b>: The string to be trimmed. <b>set</b>: The reference set of characters to trim.|
+|Return value|The trimmed string. NULL if the allocation fails.|
+|External ft.|malloc|
+|Description|Allocates (with malloc(3)) and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.|
+
+
+|Function name        |ft_split|
+|:--------------------|:--------|
+|Prototype|char **ft_split(char const *s, char c);|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string to be split. <b>s2</b>: The delimiter character.
+|Return value|The array of new strings resulting from the split. NULL if the allocation fails.|
+|External ft.|malloc, free|
+|Description|Allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter. The array must end with a NULL pointer.|
+
+
+|Function name        |ft_itoa|
+|:--------------------|:--------|
+|Prototype |char *ft_itoa(int n);|
+|Turn in files|-|
+|Parameters|<b>n</b>: The integer to convert.|
+|Return value|The string representing the intege. NULL if the allocation fails.|
+|External ft.|malloc|
+|Description|Allocates (with malloc(3)) and returns a string representing the integer received as an argument. Negative numbers must be handled.|
+
+
+|Function name        |ft_strmapi|
+|:--------------------|:--------|
+|Prototype|char *ft_strmapi(char const *s, char (*f)(unsigned int, char));|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string on which to iterate. <b>f</b>: The function to apply to each character.|
+|Return value|The string created from the successive applications of ’f’. NULL if the allocation fails.|
+|External ft.|malloc|
+|Description|Applies the function ’f’ to each character of the string ’s’, and passing its index as first argument to create a new string (with malloc(3)) resulting from successive applications of ’f’.|
+
+
+|Function name        |ft_striteri|
+|:--------------------|:--------|
+|Prototype |void ft_striteri(char *s, void (*f)(unsigned int, char *);|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string on which to iterate. <b>f</b>: The function to apply to each character.|
+|Return value|None|
+|External ft.|None|
+|Description|Applies the function ’f’ on each character of the string passed as argument, passing its index as first argument. Each character is passed by address to ’f’ to be modified if necessary.|
+
+
+|Function name        |ft_putchar_fd|
+|:--------------------|:--------|
+|Prototype |void ft_putchar_fd(char c, int fd);|
+|Turn in files|-|
+|Parameters|<b>c</b>: The character to output. <b>fd</b>: The file descriptor on which to write.|
+|Return value|None|
+|External ft.|write|
+|Description|Outputs the character ’c’ to the given file descriptor.|
+
+
+|Function name        |ft_putstr_fd|
+|:--------------------|:--------|
+|Prototype |void ft_putstr_fd(char *s, int fd);|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string to output. <b>fd</b>: The file descriptor on which to write.|
+|Return value|None|
+|External ft.|write|
+|Description|Outputs the string ’s’ to the given file descriptor.|
+
+
+|Function name        |ft_putendl_fd|
+|:--------------------|:--------|
+|Prototype |void ft_putendl_fd(char *s, int fd);|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string to output. <b>fd</b>: The file descriptor on which to write.|
+|Return value|None|
+|External ft.|write|
+|Description|Outputs the string ’s’ to the given file descriptor followed by a newline.|
+
+
+|Function name        |ft_putnbr_fd|
+|:--------------------|:--------|
+|Prototype |void ft_putnbr_fd(int n, int fd);|
+|Turn in files|-|
+|Parameters|<b>n</b>: The integer to output. <b>fd</b>: The file descriptor on which to write.|
+|Return value|None|
+|External ft.|write|
+|Description|Outputs the integer ’n’ to the given file descriptor.|
+
+---
+
+<h3><b>¤ Part 3 - Examples ¤</b></h3>
