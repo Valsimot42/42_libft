@@ -222,3 +222,38 @@ The explanation of 'memmove' arguments are as follows:
 #
 
 • SUBSTR •
+
+```ruby
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+    char input[] = "Hello, World!";
+    int start = 7;
+    int length = 5;
+
+    char *substring = ft_substr(s, start, length);
+
+    printf("Substring: %s\n", substring);
+
+    free(substring);
+    return 0;
+}
+```
+
+The explanation of 'substr' arguments are as follows:
+
+* <b>'s'</b>: A pointer to the input string.
+
+* <b>'start'</b>: The string index of the substring.
+
+* <b>'len'</b>: The length of the substring to be extracted.
+
+<b>Description</b>: 'substr' extracts a substring from the given input string 's'. If either 'len' or 'start' is invalid, the function will return a duplicate of an empty string.  In case of a vaild input, it will alocate memory for the 'substring'. Null terminator must also be accounted for when allocating memory.
+
+#
+
+• SPLIT •
+
+```ruby
