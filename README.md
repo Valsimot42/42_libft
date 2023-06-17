@@ -86,6 +86,7 @@ int main() {
 ```
 
 <h4><b>• ISASCII •</b></h4></p>
+
 The isascii() function tests for an ASCII character, which is any character between 0 and octal 0177 inclusive.
 
 ```ruby
@@ -99,3 +100,57 @@ int main() {
     return 0;
 }
 ```
+
+<h4><b>• ISPRINT •</b></h4></p>
+
+The isprint() function tests for any printing character, including space (` ').  The value of the argument must be representable as an unsigned char or the value of EOF. The isprint() function returns zero if the character tests false and returns non-zero if the character tests true.
+
+```ruby
+#include <stdio.h>
+
+int main() {
+    char ch = '@';
+    int result = isprint(ch);
+
+    printf("Return value of isprint: %d\n", result);
+    return 0;
+}
+```
+
+<h4><b>• STRLEN •</b></h4></p>
+
+The strlen() function computes the length of the string s.  The strnlen() function attempts to compute the length of s, but never scans beyond the first maxlen bytes of s. The strlen() function returns the number of characters that precede the terminating NUL character. The strnlen() function returns either the same result as strlen() or maxlen, whichever is smaller.
+
+```ruby
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[] = "Hello, World!";
+    int length = strlen(str);
+
+    printf("Return value of strlen: %d\n", length);
+    return 0;
+}
+```
+
+<h4><b>• MEMSET •</b></h4></p>
+
+The memset() function writes len bytes of value c (converted to an unsigned char) to the string b. The memset() function returns its first argument.
+
+```ruby
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[10];
+    int value = 65; // ASCII value of 'A'
+    size_t size = sizeof(str);
+
+    void *result = memset(str, value, size);
+
+    printf("Return value of memset: %p\n", result);
+    return 0;
+}
+```
+
