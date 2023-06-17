@@ -36,29 +36,29 @@ If the subject requires it, you must submit a Makefile which will compile your s
  
 |Function|Description|
 |:-------|:----------|
-ISALPHA |checks if a character is an alphabetic character (a letter).
-ISDIGIT |checks if a character is a digit (0-9).
-ISALNUM | checks if a character is alphanumeric (a letter or a digit).
-ISASCII | checks if a character is a valid ASCII character (0-127 range).
-ISPRINT | checks if a character is printable (including spaces and printable ASCII characters).
-STRLEN | calculates the length of a null-terminated string (excluding the null terminator).
-MEMSET | sets a block of memory to a specified value.
-BZERO | sets a block of memory to zero.
-MEMCPY | copies a block of memory from one location to another.
-MEMMOVE | moves a block of memory, handling overlapping regions correctly.
-STRLCPY | copies a string into a destination buffer with a specified size, ensuring null-termination.
-STRLCAT | appends a string to the end of a destination string, ensuring the result is null-terminated and fits within a specified size.
-TOUPPER | converts a lowercase character to uppercase if applicable, otherwise it returns the same character.
-TOLOWER | converts an uppercase character to lowercase if applicable, otherwise it returns the same character.
-STRCHR | searches for the first occurrence of a specified character within a string and returns a pointer to it.
-STRRCHR | searches for the last occurance of a specified character within a string and returns a pointer to it.
-STRNCMP | compares two strings up to a specified number of characters and returns the comparison result.
-MEMCHR | searches for the first occurrence of a specified byte value within a memory block and returns a pointer to it.
-MEMCMP | compares two memory blocks up to a specified number of bytes and returns the comaprison result.
-STRNSTR | searches for the first occurrence of a substring within a string, up to a specified number of characters.
-ATOI | converts a string to an integer, discarding leading whitespace and stopping at the first non-digit character.
-CALLOC | allocates and initializes a block of memory for an array, setting all bytes to zero.
-STRDUP | creates a new string by duplicating an existing null-terminated string and returns a pointer to it.
+isalpha |checks if a character is an alphabetic character (a letter).
+isdigit |checks if a character is a digit (0-9).
+isalnum | checks if a character is alphanumeric (a letter or a digit).
+isascii | checks if a character is a valid ASCII character (0-127 range).
+isprint | checks if a character is printable (including spaces and printable ASCII characters).
+strlen | calculates the length of a null-terminated string (excluding the null terminator).
+memset | sets a block of memory to a specified value.
+bzero | sets a block of memory to zero.
+memcpy | copies a block of memory from one location to another.
+memmove | moves a block of memory, handling overlapping regions correctly.
+strlcpy | copies a string into a destination buffer with a specified size, ensuring null-termination.
+strlcat | appends a string to the end of a destination string, ensuring the result is null-terminated and fits within a specified size.
+toupper | converts a lowercase character to uppercase if applicable, otherwise it returns the same character.
+tolower | converts an uppercase character to lowercase if applicable, otherwise it returns the same character.
+strchr | searches for the first occurrence of a specified character within a string and returns a pointer to it.
+strrchr | searches for the last occurance of a specified character within a string and returns a pointer to it.
+stnrcmp | compares two strings up to a specified number of characters and returns the comparison result.
+memchr | searches for the first occurrence of a specified byte value within a memory block and returns a pointer to it.
+memcmp | compares two memory blocks up to a specified number of bytes and returns the comaprison result.
+strnstr | searches for the first occurrence of a substring within a string, up to a specified number of characters.
+atoi | converts a string to an integer, discarding leading whitespace and stopping at the first non-digit character.
+calloc | allocates and initializes a block of memory for an array, setting all bytes to zero.
+strdup | creates a new string by duplicating an existing null-terminated string and returns a pointer to it.
 
 ---
 
