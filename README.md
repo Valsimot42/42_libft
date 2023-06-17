@@ -49,52 +49,31 @@ If the subject requires it, you must submit a Makefile which will compile your s
 
 <p align="left̨">
  
-#
-* ISALPHA -> checks if a character is an alphabetic character (a letter).
-#
-* ISDIGIT -> checks if a character is a digit (0-9).
- #
-* ISALNUM -> checks if a character is alphanumeric (a letter or a digit).
-#
-* ISASCII -> checks if a character is a valid ASCII character (0-127 range).
- #
-* ISPRINT -> checks if a character is printable (including spaces and printable ASCII characters).
-#
-* STRLEN -> calculates the length of a null-terminated string (excluding the null terminator).
- #
-* MEMSET -> sets a block of memory to a specified value.
- #
-* BZERO -> sets a block of memory to zero.
- #
-* MEMCPY -> copies a block of memory from one location to another.
- #
-* MEMMOVE -> moves a block of memory, handling overlapping regions correctly.
- #
-* STRLCPY -> copies a string into a destination buffer with a specified size, ensuring null-termination.
-#
-* STRLCAT -> appends a string to the end of a destination string, ensuring the result is null-terminated and fits within a specified size.
- #
-* TOUPPER -> converts a lowercase character to uppercase if applicable, otherwise it returns the same character.
-#
-* TOLOWER -> converts an uppercase character to lowercase if applicable, otherwise it returns the same character.
- #
-* STRCHR -> searches for the first occurrence of a specified character within a string and returns a pointer to it.
- #
-* STRRCHR -> searches for the last occurance of a specified character within a string and returns a pointer to it.
- #
-* STRNCMP -> compares two strings up to a specified number of characters and returns the comparison result.
- #
-* MEMCHR -> searches for the first occurrence of a specified byte value within a memory block and returns a pointer to it.
- #
-* MEMCMP -> compares two memory blocks up to a specified number of bytes and returns the comaprison result.
- #
-* STRNSTR -> searches for the first occurrence of a substring within a string, up to a specified number of characters.
- #
-* ATOI -> converts a string to an integer, discarding leading whitespace and stopping at the first non-digit character.
- #
-* CALLOC -> allocates and initializes a block of memory for an array, setting all bytes to zero.
- #
-* STRDUP -> creates a new string by duplicating an existing null-terminated string and returns a pointer to it.
+|Function|Description|
+|:-------|:----------|
+ISALPHA |checks if a character is an alphabetic character (a letter).
+ISDIGIT |checks if a character is a digit (0-9).
+ISALNUM | checks if a character is alphanumeric (a letter or a digit).
+ISASCII | checks if a character is a valid ASCII character (0-127 range).
+ISPRINT | checks if a character is printable (including spaces and printable ASCII characters).
+STRLEN | calculates the length of a null-terminated string (excluding the null terminator).
+MEMSET | sets a block of memory to a specified value.
+BZERO | sets a block of memory to zero.
+MEMCPY | copies a block of memory from one location to another.
+MEMMOVE | moves a block of memory, handling overlapping regions correctly.
+STRLCPY | copies a string into a destination buffer with a specified size, ensuring null-termination.
+STRLCAT | appends a string to the end of a destination string, ensuring the result is null-terminated and fits within a specified size.
+TOUPPER | converts a lowercase character to uppercase if applicable, otherwise it returns the same character.
+TOLOWER | converts an uppercase character to lowercase if applicable, otherwise it returns the same character.
+STRCHR | searches for the first occurrence of a specified character within a string and returns a pointer to it.
+STRRCHR | searches for the last occurance of a specified character within a string and returns a pointer to it.
+STRNCMP | compares two strings up to a specified number of characters and returns the comparison result.
+MEMCHR | searches for the first occurrence of a specified byte value within a memory block and returns a pointer to it.
+MEMCMP | compares two memory blocks up to a specified number of bytes and returns the comaprison result.
+STRNSTR | searches for the first occurrence of a substring within a string, up to a specified number of characters.
+ATOI | converts a string to an integer, discarding leading whitespace and stopping at the first non-digit character.
+CALLOC | allocates and initializes a block of memory for an array, setting all bytes to zero.
+STRDUP | creates a new string by duplicating an existing null-terminated string and returns a pointer to it.
 
 ---
 
