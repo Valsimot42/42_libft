@@ -37,120 +37,72 @@ If the subject requires it, you must submit a Makefile which will compile your s
 
 
 <p align="left̨">
-  <h4><b>• ISALPHA •</b></h4></p>
 
-The isalpha() function tests for any character for which isupper(3) or islower(3) is true. The value of the argument must be representable as an unsigned char or the value of EOF. The isalpha() function returns zero if the character tests false and returns non-zero if the character tests true.
+* ISALPHA -> checks if a character is an alphabetic character (a letter).
+ 
+* ISDIGIT -> checks if a character is a digit (0-9).
+ 
+* ISALNUM -> checks if a character is alphanumeric (a letter or a digit).
 
-```ruby
-#include <stdio.h>
+* ISASCII -> checks if a character is a valid ASCII character (0-127 range).
+ 
+* ISPRINT -> checks if a character is printable (including spaces and printable ASCII characters).
 
-int main() {
-    char ch = 'C';
-    int result = isalpha(ch);
+* STRLEN -> calculates the length of a null-terminated string (excluding the null terminator).
+ 
+* MEMSET -> sets a block of memory to a specified value.
+ 
+* BZERO -> sets a block of memory to zero.
+ 
+* MEMCPY -> copies a block of memory from one location to another.
+ 
+* MEMMOVE -> moves a block of memory, handling overlapping regions correctly.
+ 
+* STRLCPY -> copies a string into a destination buffer with a specified size, ensuring null-termination.
 
-    printf("Return value of isalpha: %d\n", result);
-    return 0;
-}
-```
+* STRLCAT -> appends a string to the end of a destination string, ensuring the result is null-terminated and fits within a specified size.
+ 
+* TOUPPER -> converts a lowercase character to uppercase if applicable, otherwise it returns the same character.
 
-<h4><b>• ISDIGIT •</b></h4></p>
+* TOLOWER -> converts an uppercase character to lowercase if applicable, otherwise it returns the same character.
+ 
+* STRCHR -> searches for the first occurrence of a specified character within a string and returns a pointer to it.
+ 
+* STRRCHR -> searches for the last occurance of a specified character within a string and returns a pointer to it.
+ 
+* STRNCMP -> compares two strings up to a specified number of characters and returns the comparison result.
+ 
+* MEMCHR -> searches for the first occurrence of a specified byte value within a memory block and returns a pointer to it.
+ 
+* MEMCMP -> compares two memory blocks up to a specified number of bytes and returns the comaprison result.
+ 
+* STRNSTR -> searches for the first occurrence of a substring within a string, up to a specified number of characters.
+ 
+* ATOI -> converts a string to an integer, discarding leading whitespace and stopping at the first non-digit character.
+ 
+* CALLOC -> allocates and initializes a block of memory for an array, setting all bytes to zero.
+ 
+* STRDUP -> creates a new string by duplicating an existing null-terminated string and returns a pointer to it.
 
-The isdigit() function tests for a decimal digit character.  Regardless of locale, this includes the following characters only: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. The value of the argument must be representable as an unsigned char or the value of EOF. The isdigit() and isnumber() functions return zero if the character tests false and return non-zero if the character tests true.
+---
 
-```ruby
-#include <stdio.h>
+<h3><b>¤ Part 2 - Additional functions ¤</b></h3>
 
-int main() {
-    char ch = '7';
-    int result = isdigit(ch);
+|Function name        |ft_substr|
+|:--------------------|:--------|
+|Prototype|char *ft_substr(char const *s, unsigned int start, size_t len);|
+|Turn in files|-|
+|Parameters|<b>s</b>: The string from which to create the substring. <b>start</b>: The start index of the substring in the string ’s’. <b>len</b>: The maximum length of the substring.|
+|Return value|The substring. NULL if the allocation fails.|
+|External ft.|malloc|
+|Description|Allocates (with malloc(3)) and returns a substring from the string ’s’. The substring begins at index ’start’ and is of maximum size ’len’.|
 
-    printf("Return value of isdigit: %d\n", result);
-    return 0;
-}
-```
 
-<h4><b>• ISALNUM •</b></h4></p>
-
-The isalnum() function tests for any character for which isalpha(3) or isdigit(3) is true. The value of the argument must be representable as an unsigned char or the value of EOF. The isalnum() function returns zero if the character tests false and returns non-zero if the character tests true.
-
-```ruby
-#include <stdio.h>
-
-int main() {
-    char ch = '9';
-    int result = isalnum(ch);
-
-    printf("Return value of isalnum: %d\n", result);
-    return 0;
-}
-```
-
-<h4><b>• ISASCII •</b></h4></p>
-
-The isascii() function tests for an ASCII character, which is any character between 0 and octal 0177 inclusive.
-
-```ruby
-#include <stdio.h>
-
-int main() {
-    char ch = '!';
-    int result = isascii(ch);
-
-    printf("Return value of isascii: %d\n", result);
-    return 0;
-}
-```
-
-<h4><b>• ISPRINT •</b></h4></p>
-
-The isprint() function tests for any printing character, including space (` ').  The value of the argument must be representable as an unsigned char or the value of EOF. The isprint() function returns zero if the character tests false and returns non-zero if the character tests true.
-
-```ruby
-#include <stdio.h>
-
-int main() {
-    char ch = '@';
-    int result = isprint(ch);
-
-    printf("Return value of isprint: %d\n", result);
-    return 0;
-}
-```
-
-<h4><b>• STRLEN •</b></h4></p>
-
-The strlen() function computes the length of the string s.  The strnlen() function attempts to compute the length of s, but never scans beyond the first maxlen bytes of s. The strlen() function returns the number of characters that precede the terminating NUL character. The strnlen() function returns either the same result as strlen() or maxlen, whichever is smaller.
-
-```ruby
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char str[] = "Hello, World!";
-    int length = strlen(str);
-
-    printf("Return value of strlen: %d\n", length);
-    return 0;
-}
-```
-
-<h4><b>• MEMSET •</b></h4></p>
-
-The memset() function writes len bytes of value c (converted to an unsigned char) to the string b. The memset() function returns its first argument.
-
-```ruby
-#include <stdio.h>
-#include <string.h>
-
-int main() {
-    char str[10];
-    int value = 65; // ASCII value of 'A'
-    size_t size = sizeof(str);
-
-    void *result = memset(str, value, size);
-
-    printf("Return value of memset: %p\n", result);
-    return 0;
-}
-```
-
+|Function name        |ft_strjoin|
+|:--------------------|:--------|
+|Prototype|char *ft_strjoin(char const *s1, char const *s2);|
+|Turn in files|-|
+|Parameters|<b>s1</b>: The prefix string. <b>s2</b>: The suffix string.
+|Return value|The new string. NULL if the allocation fails.|
+|External ft.|malloc|
+|Description|Allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.|
