@@ -4,11 +4,19 @@
 #
 <h3><b>¤ Table of contents ¤</b></h3>
 
-1) <b>Introduction</b>
-2) <b>Instructions</b>
-3) <b>Part 1: Libc functions</b>
-4) <b>Part 2: Additional functions</b>
-5) <b>Examples</b>
+1) <b>How to use</b>
+2) <b>Introduction</b>
+3) <b>Instructions</b>
+4) <b>Part 1: Libc functions</b>
+5) <b>Part 2: Additional functions</b>
+6) <b>Examples</b>
+
+---
+<h3><b>¤ How to use ¤</b></h3>
+
+* 
+
+
 
 ---
 <h3><b>¤ Introduction ¤</b></h3>
