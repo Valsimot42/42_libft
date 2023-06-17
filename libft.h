@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 15:28:50 by tbolkova          #+#    #+#             */
-/*   Updated: 2022/06/13 11:13:43 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/06/17 16:40:53 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,8 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
+
+//! - - - - - - - - - PART 1: LIBC FUNCTIONS
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
