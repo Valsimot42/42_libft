@@ -6,25 +6,26 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/28 15:28:50 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:40:53 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/06/17 16:45:34 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+// Std libraries
 # include <string.h>
 # include <unistd.h>
 # include <stdlib.h>
 
+// Structs
 typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }					t_list;
 
-
-//! - - - - - - - - - PART 1: LIBC FUNCTIONS
+//! - - - - - LIBC: - - - - -
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
@@ -46,8 +47,12 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 int		ft_atoi(const char *str);
+
+//! - - - - - MALLOC: - - - - - 
 void	*ft_calloc(size_t count, size_t size);
 char	*ft_strdup(const char *s1);
+
+//! - - - - - ADDITIONAL: - - - - - 
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
