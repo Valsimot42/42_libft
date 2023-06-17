@@ -257,3 +257,34 @@ The explanation of 'substr' arguments are as follows:
 • SPLIT •
 
 ```ruby
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    const char *input = "Hello,World,OpenAI";
+    char delimiter = ',';
+
+    char **result = ft_split(input, delimiter);
+
+    if (result) {
+        for (int i = 0; result[i] != NULL; i++) {
+            printf("Substring %d: %s\n", i, result[i]);
+        }
+
+        for (int i = 0; result[i] != NULL; i++) {
+            free(result[i]);
+        }
+        free(result);
+    }
+
+    return 0;
+}
+```
+
+The explanation of "split" arguments are as follows:
+
+* <b>'s'</b>: The string that will be divided into substrings.
+
+* <b>'c'</b>: The delimiter character.
+
+<b>Description</b>: 'split', as its name suggests, splits the input into substrings if delimiter character is encountered. Sufficient memory is allocated for every substring, and upon successful execution of the program, frees the allocated memory.
