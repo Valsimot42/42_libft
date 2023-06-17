@@ -208,4 +208,17 @@ int main() {
     return 0;
 }
 ```
-<b>Description</b>:
+
+The explanation of 'memmove' arguments are as follows:
+
+* <b>'destination'</b>: A pointer to the destination memory block where the data will be moved to.
+
+* <b>'source'</b>: A pointer to the source memory block containing the data to be moved.
+
+* <b>'size'</b>: The number of bytes to be moved from the source to the destination (strlen(source) + 1).
+
+<b>Description</b>: 'memmove' copies the entire content of the 'source' array, including the null terminator, to the 'destination' array. The 'strlen(source + 1)' is used to calculate the size of the source string, including the null terminator.
+
+#
+
+• SUBSTR •
