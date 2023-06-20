@@ -15,9 +15,10 @@
 <h3><b>¤ How to use ¤</b></h3>
 
 * Clone the git repository.
-* Run `make`.
+* Execute `make` in terminal.
 * Add a `main` to the function you would like to test.
-* Run `make` again.
+* Execute `make` in terminal again.
+* Run `libft`.
 
 
 
