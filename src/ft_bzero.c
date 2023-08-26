@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:03:36 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:24 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:35:05 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,15 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	ft_bzero(str, 1);
+// 	printf("\e[0;32mft_bzero: %s\n\e[0;37m", str);
+// 	bzero(str, 1);
+// 	printf("\e[0;31mbzero: %s\n\e[0;37m", str);
+// 	return (0);
+// }

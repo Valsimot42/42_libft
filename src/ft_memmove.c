@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:07:28 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:05 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:20:29 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,16 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	ft_memcpy(dst, src, len);
 	return (dst);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int main() {
+//     char source[] = "Hello, World!";
+//     char destination[20];
+
+//     memmove(destination, source, strlen(source) + 1);
+
+//     printf("Copied string: %s\n", destination);
+//     return 0;
+// }

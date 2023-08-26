@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 10:59:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:38:35 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:33:22 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,3 +54,26 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char *str1 = "-1234";
+// 	char *str2 = "  5  6  7  8";
+// 	char *str3 = "9a9b9c";
+// 	char *str4 = " \t\n\v\f\r  123 ";
+	
+// 	printf("\e[0;32mft_atoi: \n\e[0;37m");
+// 	printf("%d\n", ft_atoi(str1));
+// 	printf("%d\n", ft_atoi(str2));
+// 	printf("%d\n", ft_atoi(str3));
+// 	printf("%d\n", ft_atoi(str4));
+
+// 	printf("\e[0;31matoi: \n\e[0;37m");
+// 	printf("%d\n", atoi(str1));
+// 	printf("%d\n", atoi(str2));
+// 	printf("%d\n", atoi(str3));
+// 	printf("%d\n", atoi(str4));
+// 	return (0);
+// }
