@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:12:35 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:26 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:36:05 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,17 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }	
+
+// #include <stdio.h>
+
+// void	ft_print(unsigned int i, char *c)
+// {
+// 	printf("%d: %c\n", i, *c);
+// }
+
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	ft_striteri(str, ft_print);
+// 	return (0);
+// }
