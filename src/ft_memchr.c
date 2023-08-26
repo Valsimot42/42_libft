@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 14:18:51 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:51 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:54:20 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,21 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	printf("\e[0;32mft_memchr: \n\e[0;37m");
+// 	printf("%s\n", ft_memchr(str, 'W', 5));
+// 	printf("%s\n", ft_memchr(str, 'W', 6));
+// 	printf("%s\n", ft_memchr(str, 'W', 7));
+// 	printf("%s\n", ft_memchr(str, 'W', 8));
+
+// 	printf("\e[0;31mmemchr: \n\e[0;37m");
+// 	printf("%s\n", memchr(str, 'W', 5));
+// 	printf("%s\n", memchr(str, 'W', 6));
+// 	printf("%s\n", memchr(str, 'W', 7));
+// 	printf("%s\n", memchr(str, 'W', 8));
+// }
