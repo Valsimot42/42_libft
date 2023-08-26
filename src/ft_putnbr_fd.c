@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:09:26 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:14 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:25:14 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,20 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(nn % 10 + 48, fd);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	ft_putnbr_fd(123, 1);
+// 	printf("\n");
+// 	ft_putnbr_fd(-123, 1);
+// 	printf("\n");
+// 	ft_putnbr_fd(0, 1);
+// 	printf("\n");
+// 	ft_putnbr_fd(-2147483648, 1);
+// 	printf("\n");
+// 	ft_putnbr_fd(2147483647, 1);
+// 	printf("\n");
+// 	return (0);
+// }

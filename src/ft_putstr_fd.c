@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:11:04 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:17 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:26:03 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,11 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	ft_putstr_fd("Hello World!", 1);
+// 	return (0);
+// }

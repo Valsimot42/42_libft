@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:08:15 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:12 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:24:41 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,11 @@ void	ft_putendl_fd(char *s, int fd)
 	write (fd, s, ft_strlen(s));
 	write (fd, "\n", 1);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	ft_putendl_fd("Hello World!", 1);
+// 	return (0);
+// }
