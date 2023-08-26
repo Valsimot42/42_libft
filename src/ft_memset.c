@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:10:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:08 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:21:38 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,16 @@ void	*ft_memset(void *b, int c, size_t len)
 		i++;
 	}
 	return (casted_b);
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	char str[] = "Hello World!";
+	ft_memset(str, 'a', 3);
+	printf("\e[0;32mft_memset:\e[0;37m %s\n", str);
+	memset(str, 'a', 3);
+	printf("\e[0;31mmemset:\e[0;37m %s\n", str);
+	return (0);
 }

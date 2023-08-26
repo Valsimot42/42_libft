@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:07:28 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:20:13 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:20:54 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,15 +44,15 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	return (dst);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(void)
-{
-	char str[] = "Hello World!";
-	char str2[] = "Hello World!";
-	ft_memmove(str, str + 8, 6);
-	printf("\e[0;32mft_memmove:\e[0;37m %s\n", str);
-	memmove(str2, str2 + 8, 6);
-	printf("\e[0;31mmemmove:\e[0;37m %s\n", str2);
-	return (0);
-}
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	char str2[] = "Hello World!";
+// 	ft_memmove(str, str + 8, 6);
+// 	printf("\e[0;32mft_memmove:\e[0;37m %s\n", str);
+// 	memmove(str2, str2 + 8, 6);
+// 	printf("\e[0;31mmemmove:\e[0;37m %s\n", str2);
+// 	return (0);
+// }
