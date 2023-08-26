@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/09 18:23:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:21 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:29:45 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,15 @@ char	*ft_strchr(const char *s, int c)
 		i++;
 	if (s[i] == (char)c)
 		return ((char *)&s[i]);
+	return (0);
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	char str[] = "Hello World!";
+	printf("\e[0;32mft_strchr:\e[0;37m %s\n", ft_strchr(str, 'o'));
+	printf("\e[0;31mstrchr:\e[0;37m %s\n", strchr(str, 'o'));
 	return (0);
 }

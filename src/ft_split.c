@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 11:10:32 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:28:15 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:29:21 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,13 +73,13 @@ char	**ft_split(const char *s, char c)
 	return (arr);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(void)
-{
-	char str[] = "Hello World!";
-	char **arr = ft_split(str, ' ');
-	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[0]);
-	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[1]);
-	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[2]);
-}
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	char **arr = ft_split(str, ' ');
+// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[0]);
+// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[1]);
+// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[2]);
+// }
