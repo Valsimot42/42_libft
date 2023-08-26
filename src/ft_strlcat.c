@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:09:02 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:30 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:38:25 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,3 +47,17 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[len_dst + i] = '\0';
 	return (len_dst + len_src);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char dst[20] = "Hello";
+// 	char src[] = "World!";
+// 	printf("\e[0;32mft_strlcat:\e[0;37m %zu\n", ft_strlcat(dst, src, 20));
+// 	printf("\e[0;32mft_strlcat:\e[0;37m %s\n", dst);
+// 	char dst2[20] = "Hello";
+// 	printf("\e[0;31mstrlcat:\e[0;37m %zu\n", strlcat(dst2, src, 20));
+// 	printf("\e[0;31mstrlcat:\e[0;37m %s\n", dst2);
+// 	return (0);
+// }
