@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:17:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:38 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:42:30 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,3 +40,18 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+
+// #include <stdio.h>
+
+// char	ft_print(unsigned int i, char c)
+// {
+// 	printf("%d: %c\n", i, c);
+// 	return (c);
+// }
+
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	printf("\e[0;32mft_strmapi:\e[0;37m %s\n", ft_strmapi(str, ft_print));
+// 	return (0);
+// }
