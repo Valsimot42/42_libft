@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:12:55 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:42 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:43:33 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,3 +42,14 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char str1[] = "Hello World!";
+// 	char str2[] = "Helo World!";
+// 	printf("\e[0;32mft_strncmp:\e[0;37m %d\n", ft_strncmp(str1, str2, 5));
+// 	printf("\e[0;31mstrncmp:\e[0;37m %d\n", strncmp(str1, str2, 5));
+// 	return (0);
+// }
