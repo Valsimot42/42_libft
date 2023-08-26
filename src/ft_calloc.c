@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:04:26 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:28 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:40:22 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,17 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char *ptr;
+
+// 	ptr = ft_calloc(5, sizeof(char));
+// 	if (!ptr)
+// 		return (1);
+// 	printf("%s\n", ptr);
+// 	free(ptr);
+// 	return (0);
+// }
