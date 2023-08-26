@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 15:34:16 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:36 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:40:28 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,13 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char str[] = "Hello World!";
+// 	printf("\e[0;32mft_strlen:\e[0;37m %zu\n", ft_strlen(str));
+// 	printf("\e[0;31mstrlen:\e[0;37m %zu\n", strlen(str));
+// 	return (0);
+// }
