@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 15:03:03 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:46 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:44:47 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,16 @@ int	ft_isprint(int p)
 {
 	return (p >= 32 && p <= 126);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%d\n", ft_isprint('a'));
+// 	printf("%d\n", ft_isprint('A'));
+// 	printf("%d\n", ft_isprint('1'));
+// 	printf("%d\n", ft_isprint(' '));
+// 	printf("%d\n", ft_isprint('\0'));
+// 	printf("%d\n", ft_isprint('!'));
+// 	return (0);
+// }

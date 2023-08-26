@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:57:13 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:42 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:43:53 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,3 +22,16 @@ int	ft_isascii(int a)
 {
 	return (a >= 0 && a <= 127);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%d\n", ft_isascii('a'));
+// 	printf("%d\n", ft_isascii('A'));
+// 	printf("%d\n", ft_isascii('1'));
+// 	printf("%d\n", ft_isascii(' '));
+// 	printf("%d\n", ft_isascii('\0'));
+// 	printf("%d\n", ft_isascii('!'));
+// 	return (0);
+// }

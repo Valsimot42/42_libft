@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:36:20 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:17:44 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 11:44:17 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,16 @@ int	ft_isdigit(int d)
 {
 	return (d >= 48 && d <= 57);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	printf("%d\n", ft_isdigit('a'));
+// 	printf("%d\n", ft_isdigit('A'));
+// 	printf("%d\n", ft_isdigit('1'));
+// 	printf("%d\n", ft_isdigit(' '));
+// 	printf("%d\n", ft_isdigit('\0'));
+// 	printf("%d\n", ft_isdigit('!'));
+// 	return (0);
+// }
