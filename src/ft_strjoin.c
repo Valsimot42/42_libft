@@ -6,7 +6,7 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 11:02:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:28 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/08/26 12:37:07 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	new_str[i] = 0;
 	return (new_str);
+}
+
+#include <stdio.h>
+
+int main(void)
+{
+	char *str = ft_strjoin("Hello", "World!");
+	printf("%s\n", str);
+	return (0);
 }
