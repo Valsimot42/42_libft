@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 10:09:12 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:52 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:45:05 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief Allocates (with malloc) and returns a substring from the string "s".

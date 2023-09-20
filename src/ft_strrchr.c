@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/10 14:18:02 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:46 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:45:02 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function locates the last occurrence of "c"

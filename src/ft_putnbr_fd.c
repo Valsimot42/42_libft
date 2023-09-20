@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:09:26 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:25:14 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:29 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function outputs the integer "n" to the given file descriptor.

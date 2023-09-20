@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 11:10:32 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:29:21 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:33 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 static size_t	ft_str_counter(char const *str, char del)
 {

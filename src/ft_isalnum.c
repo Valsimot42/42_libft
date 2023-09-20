@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:47:42 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:42:07 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:51 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function checks is the character is alphanumeric.

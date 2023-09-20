@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 11:02:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:37:38 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:44 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief Allocates (with malloc) and returns a new string, which is

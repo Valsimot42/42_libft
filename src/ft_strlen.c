@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 15:34:16 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:40:28 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:52 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function computes the length of the string "s".

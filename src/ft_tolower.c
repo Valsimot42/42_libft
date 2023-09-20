@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/06 15:39:36 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:55 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:45:11 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function converts an upper-case letter to the

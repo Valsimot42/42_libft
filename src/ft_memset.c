@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:10:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:22:40 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:21 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function writes "len" bytes of value "c"

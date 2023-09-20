@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:04:26 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:40:22 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:49 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function allocates the requested memory and

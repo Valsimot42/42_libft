@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 11:53:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:49:19 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:02 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 static size_t	ft_intlen(int n)
 {

@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:09:18 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:19:04 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:15 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function copies "n" bytes from memory area "src" to memory

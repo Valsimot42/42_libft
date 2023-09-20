@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 11:09:50 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:44 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:59 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function locates the first occurance of the

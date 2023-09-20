@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:12:35 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:36:05 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:42 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function applies function "f" on each character of

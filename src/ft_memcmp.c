@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:05:13 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:58:53 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:11 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function compares byte string "s1" against byte string "s2".

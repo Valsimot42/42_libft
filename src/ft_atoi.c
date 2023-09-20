@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 10:59:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:33:22 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:38 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 static int	ft_isspace(int ch)
 {

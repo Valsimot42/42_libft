@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:36:20 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:44:17 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:58 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function checks if the character is a decimal digit.

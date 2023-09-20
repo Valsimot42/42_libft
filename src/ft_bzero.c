@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:03:36 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:40:10 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:47 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function writes "n" zeroed bytes to the string "s".

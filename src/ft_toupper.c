@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/06 15:34:38 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/06/17 16:18:57 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:45:13 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function converts a lower-case letter to the

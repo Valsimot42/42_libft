@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:12:00 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:39:45 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:49 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function copes and concatenates strings with

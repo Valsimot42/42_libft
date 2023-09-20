@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:11:04 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 12:26:03 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:44:31 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function writes the string "s" into the file descriptor.

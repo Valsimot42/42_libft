@@ -6,11 +6,11 @@
 /*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 13:33:17 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/08/26 11:42:37 by tbolkova         ###   ########.fr       */
+/*   Updated: 2023/09/20 12:43:54 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "../inc/libft.h"
 
 /**
  * @brief This function checks if the character is alphabetic.
