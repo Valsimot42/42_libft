@@ -6,33 +6,23 @@
 #    By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/28 15:23:51 by tbolkova          #+#    #+#              #
-#    Updated: 2023/06/17 16:38:14 by tbolkova         ###   ########.fr        #
+#    Updated: 2023/09/20 12:40:58 by tbolkova         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Program
-NAME = libft
-
-# Colors
-NC			:= \033[0m
-RED			:= \033[0;31m
-GREEN		:= \033[0;32m
-BLUE		:= \033[0;34m
-
 # Compilation
+NAME = libft
 CC = gcc
-CFLAGS = -Wall -Werror -Wextra
+FLAGS = -Wall -Wextra -Werror
+DEBUG = -g -fsanitize=address
 
-# Debugging
-FSANITIZE = -fsanitize=address
-
-# Header
-HEADER = ./libft.h
-
-# Sources
+# Paths
 SRC_PATH = src/
+OBJ_PATH = obj/
 
-SRC = 	ft_isalpha.c \
+# SRC Files
+
+SRC = ft_isalpha.c \
 		ft_isdigit.c \
 		ft_isalnum.c \
 		ft_isascii.c \
@@ -65,36 +55,44 @@ SRC = 	ft_isalpha.c \
 		ft_putchar_fd.c \
 		ft_putstr_fd.c \
 		ft_putendl_fd.c \
-		ft_putnbr_fd.c
+		ft_putnbr_fd.c 
 
-SRCS = $(addprefix $(SRC_PATH), $(SRC))
+# OBJ Files
 
-# Objects
-OBJ_PATH 	= obj/
-OBJ 		= $(SRC:.c=.o)
-OBJS		= $(addprefix $(OBJ_PATH), $(OBJ))
+OBJ = $(SRC:.c=.o)
+OBJS = $(addprefix $(OBJ_PATH), $(OBJ))
+
+# Colors
+
+GREEN = \033[0;92m
+YELLOW = \033[0;93m
+BLUE = \033[0;34m
+RED = \033[0;31m
+DEFAULT = \033[0;39m
 
 # Rules
+
 all: $(NAME)
 
-$(OBJ_PATH)%.o : $(SRC_PATH)%.c $(HEADER)
-	@echo "$(GREEN)Compiling: $< $(NC)"
-	@$(CC) -c $(CFLAGS) -o $@ $<
-
 $(OBJ_PATH):
-	@mkdir $(OBJ_PATH)
+		@mkdir -p $(OBJ_PATH)
+
+$(OBJ_PATH)%.o : $(SRC_PATH)%.c | $(OBJ_PATH)
+		@$(CC) -c $(FLAGS) -o $@ $<
 
 $(NAME): $(OBJ_PATH) $(OBJS)
-	@$(CC) -o $(NAME) $(OBJS) $(CFLAGS)
-	@echo "$(BLUE) $(NAME) created $(NC)"
+		@$(CC) -o $(NAME) $(OBJS) $(FLAGS) $(DEBUG)
+		@echo "$(GREEN)Executable <$(NAME)> compiled successfully.$(DEFAULT)"
 
 clean:
-	@echo "Cleaning: $(RED) $(OBJ_PATH) $(NC)"
-	@rm -rf $(OBJ_PATH)
+		@$(RM) -r $(OBJ_PATH)
+		clear
+		@echo "$(YELLOW)Object files deleted.$(DEFAULT)"
 
 fclean: clean
-	@echo "Cleaning:$(RED) $(NAME) $(NC)"
-	@rm -f $(NAME)
+		@$(RM) $(NAME)
+		clear
+		@echo "$(RED)All <$(NAME)> executables deleted.$(DEFAULT)"
 
 re: fclean all
 
