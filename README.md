@@ -2,14 +2,14 @@
 <p align="center"><img src="https://42wolfsburg.de/wp-content/uploads/2021/08/42wolfsburg_instagram_logo.jpeg" width="150" height="150" />
 
 #
-<p align="center"><h3><b>¤ Table of contents ¤</b></h3>
+<h3><b>¤ Table of contents ¤</b></h3>
 
 1) <b>How to use</b>
 2) <b>Introduction</b>
 3) <b>Instructions</b>
 4) <b>Part 1: Libc functions</b>
 5) <b>Part 2: Additional functions</b>
-6) <b>Examples</b></p>
+6) <b>Examples</b>
 
 ---
 <h3><b>¤ How to use ¤</b></h3>
