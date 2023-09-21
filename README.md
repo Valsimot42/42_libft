@@ -25,7 +25,7 @@
 ---
 <h3><b>¤ Introduction ¤</b></h3>
 
-<p align="center">In Libft, we are tasked to redo a set of functions from "libc" library, as well as create some of our own. Functions will have the same prototypes and implement the same behaviors as the originals. The only difference will be their names. They will begin with the "ft_" prefix. For instance, "strlen" becomes "ft_strlen". </p>
+<p align="center">In "libft", we are tasked to redo a set of functions from "libc" library, as well as create some of our own. Functions will have the same prototypes and implement the same behaviors as the originals. The only difference will be their names. They will begin with the "ft_" prefix. For instance, "strlen" becomes "ft_strlen". </p>
 
 ---
 <h3><b>¤ Instructions ¤</b></h3>
