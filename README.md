@@ -9,7 +9,7 @@
 3) <b>Instructions</b>
 4) <b>Part 1: Libc functions</b>
 5) <b>Part 2: Additional functions</b>
-6) <b>Examples</b>
+6) <b>Part 3: Examples</b>
 
 ---
 <h3><b>¤ How to use ¤</b></h3>
@@ -41,7 +41,7 @@ If the subject requires it, you must submit a Makefile which will compile your s
 
 ---
 
-<h3><b>¤ Part 1 - Libc functions ¤</b></h3>
+<h3><b>¤ Part 1: Libc functions ¤</b></h3>
 
 
 <p align="left̨">
@@ -74,7 +74,7 @@ strdup | creates a new string by duplicating an existing null-terminated string 
 
 ---
 
-<h3><b>¤ Part 2 - Additional functions ¤</b></h3>
+<h3><b>¤ Part 2: Additional functions ¤</b></h3>
 
 |Function name        |ft_substr|
 |:--------------------|:--------|
@@ -187,7 +187,7 @@ strdup | creates a new string by duplicating an existing null-terminated string 
 
 ---
 
-<h3><b>¤ Part 3 - Examples ¤</b></h3>
+<h3><b>¤ Part 3: Examples ¤</b></h3>
 
 • MEMMOVE •
 
