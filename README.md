@@ -1,5 +1,5 @@
 # Libft
-<p align="center"><img src="[https://42wolfsburg.de/wp-content/uploads/2021/08/42wolfsburg_instagram_logo.jpeg](https://raw.githubusercontent.com/santiagotena/assets/master/logos/42%20logo.jpeg)" width="150" height="150" />
+<p align="center"><img src="https://cdn-images-1.medium.com/v2/resize:fit:1200/1*mb0KkzYAZDDSvdYC2MM5hg.jpeg" width="150" height="150" />
 
 #
 <h3><b>¤ Table of contents ¤</b></h3>
