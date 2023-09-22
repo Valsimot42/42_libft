@@ -20,8 +20,6 @@
 * Execute `make` in terminal again.
 * Run `libft`.
 
-
-
 ---
 <h3><b>¤ Introduction ¤</b></h3>
 
@@ -42,7 +40,6 @@ If the subject requires it, you must submit a Makefile which will compile your s
 ---
 
 <h3><b>¤ Part 1: Libc functions ¤</b></h3>
-
 
 <p align="left̨">
  
