@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:11:04 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:31 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:06:01 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 	write(fd, s, ft_strlen(s));
 }
 
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	ft_putstr_fd("Hello World!", 1);
-// 	return (0);
-// }

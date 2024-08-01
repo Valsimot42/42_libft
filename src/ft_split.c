@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/13 11:10:32 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:33 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:06:28 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,14 +72,3 @@ char	**ft_split(const char *s, char c)
 	arr[i] = NULL;
 	return (arr);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	char **arr = ft_split(str, ' ');
-// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[0]);
-// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[1]);
-// 	printf("\e[0;32mft_split:\e[0;37m %s\n", arr[2]);
-// }

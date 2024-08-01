@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/09 18:23:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:36 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:07:04 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&s[i]);
 	return (0);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	printf("\e[0;32mft_strchr:\e[0;37m %s\n", ft_strchr(str, 'o'));
-// 	printf("\e[0;31mstrchr:\e[0;37m %s\n", strchr(str, 'o'));
-// 	return (0);
-// }

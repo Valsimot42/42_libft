@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 15:03:03 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:00 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:58:01 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,15 +24,3 @@ int	ft_isprint(int p)
 	return (p >= 32 && p <= 126);
 }
 
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%d\n", ft_isprint('a'));
-// 	printf("%d\n", ft_isprint('A'));
-// 	printf("%d\n", ft_isprint('1'));
-// 	printf("%d\n", ft_isprint(' '));
-// 	printf("%d\n", ft_isprint('\0'));
-// 	printf("%d\n", ft_isprint('!'));
-// 	return (0);
-// }

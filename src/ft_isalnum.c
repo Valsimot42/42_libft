@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:47:42 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:43:51 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:55:54 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,3 @@ int	ft_isalnum(int a)
 	return ((a >= 48 && a <= 57) || (a >= 65 && a <= 90)
 		|| (a >= 97 && a <= 122));
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%d\n", ft_isalnum('a'));
-// 	printf("%d\n", ft_isalnum('A'));
-// 	printf("%d\n", ft_isalnum('1'));
-// 	printf("%d\n", ft_isalnum(' '));
-// 	printf("%d\n", ft_isalnum('\0'));
-// 	printf("%d\n", ft_isalnum('!'));
-// 	return (0);
-// }

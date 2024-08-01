@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 13:33:17 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:43:54 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:56:30 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,16 +23,3 @@ int	ft_isalpha(int a)
 {
 	return ((a >= 65 && a <= 90) || (a >= 97 && a <= 122));
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%d\n", ft_isalpha('a'));
-// 	printf("%d\n", ft_isalpha('A'));
-// 	printf("%d\n", ft_isalpha('1'));
-// 	printf("%d\n", ft_isalpha(' '));
-// 	printf("%d\n", ft_isalpha('\0'));
-// 	printf("%d\n", ft_isalpha('!'));
-// 	return (0);
-// }

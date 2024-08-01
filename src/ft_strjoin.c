@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 11:02:57 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:44 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:08:36 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,12 +47,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	new_str[i] = 0;
 	return (new_str);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char *str = ft_strjoin("Hello", "World!");
-// 	printf("%s\n", str);
-// 	return (0);
-// }

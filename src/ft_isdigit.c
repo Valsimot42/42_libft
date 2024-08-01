@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/02 14:36:20 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:43:58 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:57:22 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,16 +23,3 @@ int	ft_isdigit(int d)
 {
 	return (d >= 48 && d <= 57);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("%d\n", ft_isdigit('a'));
-// 	printf("%d\n", ft_isdigit('A'));
-// 	printf("%d\n", ft_isdigit('1'));
-// 	printf("%d\n", ft_isdigit(' '));
-// 	printf("%d\n", ft_isdigit('\0'));
-// 	printf("%d\n", ft_isdigit('!'));
-// 	return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:09:18 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:15 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:00:50 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,16 +39,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	char str2[] = "Hello World!";
-// 	ft_memcpy(str, str + 6, 6);
-// 	printf("\e[0;32mft_memcpy:\e[0;37m %s\n", str);
-// 	memcpy(str2, str2 + 6, 6);
-// 	printf("\e[0;31mmemcpy:\e[0;37m %s\n", str2);
-// 	return (0);
-// }

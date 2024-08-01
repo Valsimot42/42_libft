@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:10:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:21 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:01:54 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,15 +37,3 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (casted_b);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	ft_memset(str, 'a', 3);
-// 	printf("\e[0;32mft_memset:\e[0;37m %s\n", str);
-// 	memset(str, 'a', 3);
-// 	printf("\e[0;31mmemset:\e[0;37m %s\n", str);
-// 	return (0);
-// }

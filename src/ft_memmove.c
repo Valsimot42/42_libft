@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:07:28 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:17 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:01:22 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,16 +43,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	ft_memcpy(dst, src, len);
 	return (dst);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	char str2[] = "Hello World!";
-// 	ft_memmove(str, str + 8, 6);
-// 	printf("\e[0;32mft_memmove:\e[0;37m %s\n", str);
-// 	memmove(str2, str2 + 8, 6);
-// 	printf("\e[0;31mmemmove:\e[0;37m %s\n", str2);
-// 	return (0);
-// }

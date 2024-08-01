@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 11:53:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:02 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 12:58:33 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,19 +78,3 @@ char	*ft_itoa(int n)
 	ft_itoa_recursive((long)n, str);
 	return (str);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	printf("\e[0;32mft_itoa:\n\e[0;37m");
-// 	printf("%s\n", ft_itoa(0));
-// 	printf("%s\n", ft_itoa(1));
-// 	printf("%s\n", ft_itoa(-1));
-// 	printf("%s\n", ft_itoa(10));
-// 	printf("%s\n", ft_itoa(-10));
-// 	printf("%s\n", ft_itoa(123456789));
-// 	printf("%s\n", ft_itoa(-123456789));
-// 	printf("%s\n", ft_itoa(2147483647));
-// 	printf("%s\n", ft_itoa(-2147483648));
-// }

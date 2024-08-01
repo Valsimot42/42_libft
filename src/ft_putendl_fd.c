@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:08:15 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:26 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:04:44 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	write (fd, s, ft_strlen(s));
 	write (fd, "\n", 1);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	ft_putendl_fd("Hello World!", 1);
-// 	return (0);
-// }

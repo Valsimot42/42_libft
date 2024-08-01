@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:12:35 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:42 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:08:11 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,17 +33,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }	
-
-// #include <stdio.h>
-
-// void	ft_print(unsigned int i, char *c)
-// {
-// 	printf("%d: %c\n", i, *c);
-// }
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	ft_striteri(str, ft_print);
-// 	return (0);
-// }

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:17:11 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:54 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:10:46 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,18 +40,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-
-// #include <stdio.h>
-
-// char	ft_print(unsigned int i, char c)
-// {
-// 	printf("%d: %c\n", i, c);
-// 	return (c);
-// }
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	printf("\e[0;32mft_strmapi:\e[0;37m %s\n", ft_strmapi(str, ft_print));
-// 	return (0);
-// }

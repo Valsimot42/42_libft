@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/08 12:07:14 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:24 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:03:43 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	ft_putchar_fd('a', 1);
-// 	printf("\n");
-// 	return (0);
-// }

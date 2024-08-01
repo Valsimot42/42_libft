@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:12:00 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:44:49 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 13:09:36 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,18 +48,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (i);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char src[] = "Hello World!";
-// 	char dst[5];
-// 	printf("\e[0;32mft_strlcpy:\e[0;37m %zu\n", ft_strlcpy(dst, src, 5));
-// 	printf("\e[0;32mdst:\e[0;37m %s\n", dst);
-// 	char src2[] = "Hello World!";
-// 	char dst2[5];
-// 	printf("\e[0;31mstrlcpy:\e[0;37m %zu\n", strlcpy(dst2, src2, 5));
-// 	printf("\e[0;31mdst:\e[0;37m %s\n", dst2);
-// 	return (0);
-// }
