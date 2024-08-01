@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/23 18:03:36 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:43:47 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 10:07:51 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,15 +32,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char str[] = "Hello World!";
-// 	ft_bzero(str, 1);
-// 	printf("\e[0;32mft_bzero: %s\n\e[0;37m", str);
-// 	bzero(str, 1);
-// 	printf("\e[0;31mbzero: %s\n\e[0;37m", str);
-// 	return (0);
-// }

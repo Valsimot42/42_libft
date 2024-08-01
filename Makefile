@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+         #
+#    By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/28 15:23:51 by tbolkova          #+#    #+#              #
-#    Updated: 2023/09/20 12:40:58 by tbolkova         ###   ########.fr        #
+#    Updated: 2024/08/01 11:27:50 by tbolkova         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ DEBUG = -g -fsanitize=address
 # Paths
 SRC_PATH = src/
 OBJ_PATH = obj/
+TEST_PATH = tests/
 
 # SRC Files
 
@@ -96,4 +97,20 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+# New target to run a specific test file
+run_test:
+ifndef TEST
+	@echo "Error: TEST variable is not set. Usage: make run_test TEST=<test_file.c>"
+	@exit 1
+endif
+	@if [ ! -f $(TEST_PATH)$(TEST) ]; then echo "Error: Test file $(TEST_PATH)$(TEST) does not exist."; exit 1; fi
+	@$(CC) $(FLAGS) $(DEBUG) -o run_test $(SRC_PATH)*.c $(TEST_PATH)$(TEST)
+	@./run_test
+	@$(RM) run_test
+
+# New target to display the menu and run tests
+menu:
+	clear
+	@./run_tests.sh
+
+.PHONY: all clean fclean re run_test menu

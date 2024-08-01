@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tbolkova <tbolkova@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 10:59:24 by tbolkova          #+#    #+#             */
-/*   Updated: 2023/09/20 12:43:38 by tbolkova         ###   ########.fr       */
+/*   Updated: 2024/08/01 10:03:58 by tbolkova         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,26 +54,3 @@ int	ft_atoi(const char *str)
 	}
 	return (sign * result);
 }
-
-// #include <stdio.h>
-
-// int main(void)
-// {
-// 	char *str1 = "-1234";
-// 	char *str2 = "  5  6  7  8";
-// 	char *str3 = "9a9b9c";
-// 	char *str4 = " \t\n\v\f\r  123 ";
-	
-// 	printf("\e[0;32mft_atoi: \n\e[0;37m");
-// 	printf("%d\n", ft_atoi(str1));
-// 	printf("%d\n", ft_atoi(str2));
-// 	printf("%d\n", ft_atoi(str3));
-// 	printf("%d\n", ft_atoi(str4));
-
-// 	printf("\e[0;31matoi: \n\e[0;37m");
-// 	printf("%d\n", atoi(str1));
-// 	printf("%d\n", atoi(str2));
-// 	printf("%d\n", atoi(str3));
-// 	printf("%d\n", atoi(str4));
-// 	return (0);
-// }
