@@ -6,7 +6,7 @@
 #    By: tbolkova <tbolkova@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/28 15:23:51 by tbolkova          #+#    #+#              #
-#    Updated: 2024/08/01 11:27:50 by tbolkova         ###   ########.fr        #
+#    Updated: 2024/08/02 12:07:41 by tbolkova         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -111,6 +111,6 @@ endif
 # New target to display the menu and run tests
 menu:
 	clear
-	@./run_tests.sh
+	@./script/run_tests.sh
 
 .PHONY: all clean fclean re run_test menu

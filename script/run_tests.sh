@@ -53,27 +53,37 @@ display_page() {
     fi
 
     echo "Please select a test file to run (Page $page of $total_pages):"
+    echo "+----+------------------+"
+    echo "| No | Test File        |"
+    echo "+----+------------------+"
     for i in $(seq $start $end); do
-        echo "$((i + 1)). ${test_files[$i]}"
+        printf "| %2d | %-16s |\n" $((i + 1)) "${test_files[$i]}"
     done
+    echo "+----+------------------+"
+
+    # Navigation options
+    nav_options=""
     if [ $page -lt $total_pages ]; then
-        echo "n. Next page"
+        nav_options+="n. NEXT PAGE | "
     fi
     if [ $page -gt 1 ]; then
-        echo "p. Previous page"
+        nav_options+="p. PREVIOUS PAGE | "
     fi
-    echo "m. Return to main menu"
-    echo "q. Quit"
+    nav_options+="m. MAIN MENU | q. QUIT"
+    echo $nav_options
 }
 
 # Function to display the welcome menu
 display_welcome_menu() {
-    echo "Welcome to the \"Bolky Tester\""
-    echo "Please enter the number depending on what you want to do:"
-    echo "1. Tester"
-    echo "2. Subject"
-    echo "3. Credits"
-    echo "4. Exit"
+    echo "+----------------------+"
+    echo "| Welcome to the       |"
+    echo "| \"Bolky Tester\"       |"
+    echo "+----------------------+"
+    echo "| 1. Tester            |"
+    echo "| 2. Subject           |"
+    echo "| 3. Credits           |"
+    echo "| 4. Exit              |"
+    echo "+----------------------+"
 }
 
 # Initial page
